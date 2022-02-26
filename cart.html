@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Корзина</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css?_v=20220121143234">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no"/>
+    <meta name="google" content="notranslate"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+
+    <div class="wrapper">
+
+
+
+        <!-- Cart -->
+        <div class="cart">
+            <div class="container">
+
+
+                <!-- Header -->
+                <header class="header header_cart">
+                    <div class="header__body">
+                        <div class="header__logo">
+                            <a href="index.html">Comp Shop</a>
+                        </div>
+                        <div class="header__actions actions-header">
+                            <div class="actions-header__phone _cart">
+                                <a href="tel:7-675-4453451" class="_icon-phone"><span>+7-675-4453451</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+
+                <!-- Content -->
+                <main class="content">
+                    <div class="shop-cart">
+                        <div class="shop-cart__body">
+                            <div class="shop-cart__title _title">
+                                <h3>Корзина</h3>
+                            </div>
+                            <div class="shop-cart__content">
+                                <div class="shop-cart__products">
+                                    <div class="shop-cart__restore restore-cart">
+                                        <div class="restore-cart__text">Товар удален из корзины</div>
+                                        <div class="restore-cart__button">Восстановить</div>
+                                    </div>        
+                                </div>
+                                <form class="shop-cart__form form-cart">
+                                    <div class="form-cart__title">
+                                        <h4>Оформление заказа</h4>
+                                    </div>
+                                    <div class="form-cart__row">                              
+                                        <div class="form-cart__column">
+                                            <div class="form-cart__data data-form">
+                                                <label class="data-form__label">Имя*
+                                                    <input name="form" class="data-form__input">
+                                                </label>
+                                                <label class="data-form__label">Фамилия*
+                                                    <input name="form" class="data-form__input">
+                                                </label>
+                                                <label class="data-form__label">Город*
+                                                    <input name="form" class="data-form__input">
+                                                </label>
+                                                <label class="data-form__label">Улица*
+                                                    <input name="form" class="data-form__input">
+                                                </label>  
+                                            </div>
+                                            <div class="form-cart__data data-form data-form_mini">
+                                                <div class="data-form__row">
+                                                    <label class="data-form__label data-form__label_mini">Дом*
+                                                        <input name="form" class="data-form__input data-form__input_mini">
+                                                    </label>
+                                                    <label class="data-form__label data-form__label_mini">Корпус
+                                                        <input name="form" class="data-form__input data-form__input_mini">
+                                                    </label>
+                                                    <label class="data-form__label data-form__label_mini">Подьезд
+                                                        <input name="form" class="data-form__input data-form__input_mini">
+                                                    </label>
+                                                    <label class="data-form__label data-form__label_mini">Квартира
+                                                        <input name="form" class="data-form__input data-form__input_mini">
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="form-cart__data data-form">
+                                                <label class="data-form__label">Телефон*
+                                                    <input type="number" name="form" class="data-form__input">
+                                                </label>
+                                                <label class="data-form__label">E-mail*
+                                                    <input name="form" class="data-form__input">
+                                                </label> 
+                                            </div>
+                                        </div>
+                                        <div class="form-cart__column">
+                                            <div class="form-cart__delivery delivery-cart">
+                                                <div class="delivery-cart__label">Выберите способ доставки:</div>
+                                                <label class="delivery-cart__radio radio">
+                                                    <input class="radio__input" type="radio" value="1" name="form">
+                                                    <span class="radio__text"><span>Курьерской службой</span></span>
+                                                </label>
+                                                <label class="delivery-cart__radio radio">
+                                                    <input class="radio__input" type="radio" value="2" name="form">
+                                                    <span class="radio__text"><span>СДЭК</span></span>
+                                                </label>
+                                                <label class="delivery-cart__radio radio">
+                                                    <input class="radio__input" type="radio" value="3" name="form">
+                                                    <span class="radio__text"><span>ЕвроПочтой</span></span>
+                                                </label>
+                                            </div>
+                                            <div class="form-cart__select select-cart">
+                                                <div class="select-cart__label">Выберите дату:</div>
+                                                <div class="select-cart__select">
+                                                    <select name="form" class="show">
+                                                        <option value="1" selected="selected">18 января</option>
+                                                        <option value="2">19 января</option>
+                                                        <option value="3">20 января</option>
+                                                        <option value="4">21 января</option>
+                                                        <option value="3">22 января</option>
+                                                        <option value="4">23 января</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-cart__select select-cart">
+                                                <div class="select-cart__label">Выберите время:</div>
+                                                <div class="select-cart__select">
+                                                    <select name="form" class="show">
+                                                        <option value="1" selected="selected">09:00 - 12:00</option>
+                                                        <option value="2">12:00 - 15:00</option>
+                                                        <option value="3">15:00 - 18:00</option>
+                                                        <option value="4">18:00 - 22:00</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="shop-cart__total total-cart">
+                                <div class="total-cart__price">
+                                    <p>Итого:</p>
+                                    <span class="total-cart__value"></span> ₽
+                                </div>
+                                <div class="total-cart__button">
+                                    <button class="_btn">Оформить Заказ</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+
+
+            <!-- Footer -->
+            <footer class="footer-cart">
+                <div class="container">
+                    <div class="footer-cart__body">
+                        <div class="footer-cart__row">
+                            <div class="footer-cart__column">
+                                <div class="footer-cart__contacts contacts-cart">
+                                    <div class="contacts-cart__item">
+                                        <a href="tel:+7-675-4453451" class="contacts-cart__link contacts-cart__link_phone _icon-mobile"><span>+7-675-4453451</span></a>
+                                    </div>
+                                    <div class="contacts-cart__item ">
+                                        <a href="mailto:compshop@mail.ru" class="contacts-cart__link contacts-cart__link_mail _icon-mail"><span>compshop@mail.ru</span></a>
+                                    </div>
+                                    <div class="contacts-cart__item contacts-cart__item_schedule">
+                                        <p class="_icon-schedule"><span>Пн–Сб:</span> 09:00–21:00;</p>
+                                        <p><span>Вс:</span> 10:00–19:00 </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer-cart__column">
+                                <div class="footer-cart__payment">
+                                    <picture><source srcset="img/footer/payment.webp" type="image/webp"><img src="img/footer/payment.png" alt="Платежные системы"></picture>
+                                </div>
+                                <div class="footer-cart__social social-cart">
+                                    <ul class="social-cart__list">
+                                        <li class="social-cart__item">
+                                            <a href="" class="social-cart__link _icon-vk"></a>
+                                        </li>
+                                        <li class="social-cart__item">
+                                            <a href="" class="social-cart__link _icon-telegram"></a>
+                                        </li>
+                                        <li class="social-cart__item">
+                                            <a href="#" class="social-cart__link _icon-instagram"></a>
+                                        </li>
+                                        <li class="social-cart__item">
+                                            <a href="#" class="social-cart__link _icon-youtube"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+ 
+    </div>
+
+
+    <script src="js/cart.js?_v=20220121143234"></script>
+
+
+</body>
+</html>
